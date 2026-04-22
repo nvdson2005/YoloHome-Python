@@ -23,6 +23,6 @@ try:
     feed = aio.feeds()
     print("Available feeds:")
     for f in feed:
-        print(f" - {f.name} (key: {f.key})")
+        print(f" - {f.name} (key: {f.key})") 
 except RequestError as e:
     print("Failed to receive data from feeds:", e)
